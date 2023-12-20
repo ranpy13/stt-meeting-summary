@@ -15,5 +15,5 @@
   * improving on the same
 * dumping the output to a text file
   * that is then picked up for summarizing
-  * using sumy standard module 
+  * using ~~genism~~ *sumy* standard module 
   * improving on the same
