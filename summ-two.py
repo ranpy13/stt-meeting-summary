@@ -13,4 +13,9 @@ if __name__ == "__main__":
         data = inp_file.read()
     text = data
     summary = summarize(text)
-    print(summary)
+    # print(summary)
+    print("Generating Summary... ", end="")
+    with open('summary.txt','w') as res:
+        res.write(summary)
+        res.close()
+    print("Generated!")
