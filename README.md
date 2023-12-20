@@ -7,3 +7,13 @@
 
 ## Problem Statement
 `To create a machine learning model which can listen to the audio from meetings and translate the speech to text, and finally output a summary of the entire meeting in a text format. This model can further be wrapped inside a graphical interface for easier access, where the summarized text has to be sent to the administrators of the meeting provided on onset.`
+
+## Course of Action
+* using google's standard api to convert speech to text
+  * setting a baseline 
+  * finding accuracy
+  * improving on the same
+* dumping the output to a text file
+  * that is then picked up for summarizing
+  * using sumy standard module 
+  * improving on the same
