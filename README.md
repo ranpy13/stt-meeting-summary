@@ -29,6 +29,10 @@
   * then running the summarizing models on the processed text block
 * thus, require a middleware leveragin a *natural languge processing* model
   * current options - `nltk`[^8], `openai`[^9], `spacy`[^10]
+* _**major shift** in workflow_, found better option: [^11]
+  * **`vosk` model** for speech to text convertion
+  * preprocessing through **`transforerms` model**
+  * finally, summarizing through _`pipeline()`_
 
 \
 \
@@ -54,3 +58,5 @@
 [^9]: Official PyPi documentation for [`openai`](https://pypi.org/project/openai/)
 
 [^10]: Official PyPi documentation for [`spacy`](https://pypi.org/project/spacy/)
+
+[^11]: DataQuest's blog post, [github](https://github.com/dataquestio/project-walkthroughs/blob/master/speech_recognition/README.md)
