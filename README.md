@@ -17,3 +17,14 @@
   * that is then picked up for summarizing
   * using ~~genism~~ *sumy* standard module 
   * improving on the same
+
+## Improving on the baseline
+* having got the basline in 
+  * google's `speechrecognition` for converting speech to text
+  * `sumy-lsasummarize` for summarizing the contents
+* to use them together and streamline the model
+  * bridge the gap between the two
+  * *process* the output from converted text with proper punctuation and markings
+  * then running the summarizing models on the processed text block
+* thus, require a middleware leveragin a *natural languge processing* model
+  * current options - `nltk`, `openai`, `spacy`
