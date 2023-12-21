@@ -9,6 +9,7 @@
 > `To create a machine learning model which can listen to the audio from meetings and translate the speech to text, and finally output a summary of the entire meeting in a text format. This model can further be wrapped inside a graphical interface for easier access, where the summarized text has to be sent to the administrators of the meeting provided on onset.`
 
 ## Course of Action
+### Setting the baseline
 * using google's standard api to convert speech to text[^1]
   * setting a baseline 
   * finding accuracy
