@@ -34,6 +34,16 @@
   * preprocessing through **`transforerms` model**
   * finally, summarizing through _`pipeline()`_
 
+### Advanced Optimization and Improvization
+* Context aware summary
+  * change of paragraph in cases of change of paragraph
+  * might require deep learning,
+  * can seperate two summaries, general and context based summary
+* Multilingual speech optimization
+* Adapting to bandwidth, backup solutions
+  * recording set audio 
+  * fall-back to recording and translating the saved audio instead of live time transcribing
+
 \
 \
 &nbsp;&nbsp;&nbsp;&nbsp;

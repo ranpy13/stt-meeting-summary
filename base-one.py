@@ -40,18 +40,24 @@ while(1):
             #listens for the user's input 
             print("Listening for user's input:")
             audio2 = r.listen(source2)
-
+        
+        # sam = sr.AudioFile('sample4.wav')
+        # with sam as source:
+        #     print("Listening for audio: ")
+        #     audio2 = r.record(source)
             # Using google to recognize audio
             MyText = r.recognize_google(audio2)
             MyText = MyText.lower()
 
-            if MyText == "exit":
+            if MyText.split()[-1] == "exit":
                 print("Thank You, terminating")
                 break
 
             # print("Did you say ",MyText)
             # SpeakText(MyText)
             temp += " "+MyText
+        print("Listening Complete: Terminating")
+        break
         
     except sr.RequestError as e:
         print("Could not request results; {0}".format(e))

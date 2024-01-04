@@ -26,6 +26,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 *.zip
+*.ini
+vosk-recasepunc-en-0.22/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -55,6 +57,7 @@ cover/
 # Translations
 *.mo
 *.pot
+*.wav
 
 # Django stuff:
 *.log

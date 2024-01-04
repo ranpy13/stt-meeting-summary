@@ -22,3 +22,6 @@ if __name__ == "__main__":
             res.write("-\t"+points+"\n")
         res.close()
     print("Generated!")
+
+
+## Try to change the paragraph for the summary in cases of change of context and so on and so forth
